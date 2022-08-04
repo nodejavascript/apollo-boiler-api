@@ -5,6 +5,8 @@ console.log('fetch'.fetch)
 export default {
   Query: {
     posts: async (root, args, { req, res }, info) => {
+      console.log('args', args)
+      const { title } = args
       const uri = 'https://www.scalablepath.com/api/test/test-posts'
       const response = await fetch(uri)
       return response.json()
