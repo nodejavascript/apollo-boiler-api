@@ -1,0 +1,21 @@
+extends _layout_bootstrap
+
+block content
+  
+  p It Works!
+  
+  .card
+    .card-body
+      h5.card-title Here is a password:
+      p.float-right
+        a.btn-sm.btn.btn-primary(href='/') Refresh
+      p.card-text !{password}
+  
+  .card
+    .card-body
+      h5.card-title logs
+      p.card-text !{logs}
+
+
+  
+  
