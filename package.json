@@ -41,11 +41,12 @@
   "is-json": "^2.0.1",
   "joi": "^17.6.0",
   "mongoose": "^6.2.9",
+  "mysql2": "^2.3.3",
+  "node-fetch": "^2",
   "node-json-equal": "^0.1.0",
   "pug": "^3.0.2",
   "redis": "^3.0.2",
-  "uuidv4": "^6.2.13",
-  "mysql2": "^2.3.3"
+  "uuidv4": "^6.2.13"
  },
  "devDependencies": {
   "nodemon": "^2.0.15",
